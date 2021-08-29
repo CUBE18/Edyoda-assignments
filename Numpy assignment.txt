@@ -1,0 +1,17 @@
+1)Use NumPy to generate an array of 25 random numbers sampled from a standard normal distribution.
+
+import numpy as np
+rand_num = np.random.normal(0,1,25)
+print("25 random numbers from a standard normal distribution:")
+print(rand_num)
+
+2)Create a random vector of size 30 and find the mean value.
+
+Z = np.random.random(10)
+m = Z.mean()
+print (m)
+
+3)Insert 1 to 100 numbers in a NumPy array and reshape it to 10*10 matrix.
+
+Z = np.arange(1,101).reshape(10,10)
+print (Z)
